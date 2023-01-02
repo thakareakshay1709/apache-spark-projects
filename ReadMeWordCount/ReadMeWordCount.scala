@@ -1,3 +1,5 @@
+//Basic program to count words from readme file of this repo
+
 val textFile = sc.textFile("D:/Programming/Scala/apache-spark-projects/README.md")
 
 val tokenizedFileData = textFile.flatMap(line=>line.split(" "))
