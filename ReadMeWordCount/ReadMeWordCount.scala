@@ -1,4 +1,4 @@
-//Basic program to count words from readme file of this repo
+//Basic program to count words from readme file of this repository
 
 val textFile = sc.textFile("D:/Programming/Scala/apache-spark-projects/README.md")
 
